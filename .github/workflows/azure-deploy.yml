@@ -12,9 +12,9 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name    # Replace with your Azure Web App name
-  AZURE_RESOURCE_GROUP: your-resource-group  # Replace with your resource group
-  CONTAINER_REGISTRY: yourregistry.azurecr.io  # Replace with your ACR name
+  AZURE_WEBAPP_NAME: react-docker-webapp
+  AZURE_RESOURCE_GROUP: rg-react-docker-dev
+  CONTAINER_REGISTRY: reactdockeracr123.azurecr.io
   IMAGE_NAME: simple-app
 
 jobs:
